@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "demirnight",
+  "version": "${version}",
+  "name": "Demir's Night Vision",
+  "description": "Toggle Night Vision with N key",
+  "authors": ["tascidemir"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.demirarch.demirnight.DemirsNightVision"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
